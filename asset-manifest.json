@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/timothyluedtke.github.io/static/css/main.deb5c223.css",
-    "main.js": "/timothyluedtke.github.io/static/js/main.936749c1.js",
-    "static/media/hero-dark.jpg": "/timothyluedtke.github.io/static/media/hero-dark.37f2556d620821979e99.jpg",
-    "static/media/portfolio-screen.jpg": "/timothyluedtke.github.io/static/media/portfolio-screen.9bd14c8e0c9a4a321111.jpg",
-    "static/media/hero-light.jpg": "/timothyluedtke.github.io/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
-    "static/media/demera-screen.jpg": "/timothyluedtke.github.io/static/media/demera-screen.b29831aba53309203df7.jpg",
-    "service-worker.js": "/timothyluedtke.github.io/service-worker.js",
-    "static/media/artRoom-screen.jpg": "/timothyluedtke.github.io/static/media/artRoom-screen.2b87c98cb5f3aadb84cf.jpg",
-    "static/media/mich-screen.jpg": "/timothyluedtke.github.io/static/media/mich-screen.f88bc84e51d1003a1552.jpg",
-    "static/media/GH.svg": "/timothyluedtke.github.io/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
-    "static/media/logo.svg": "/timothyluedtke.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/timothyluedtke.github.io/index.html",
-    "main.deb5c223.css.map": "/timothyluedtke.github.io/static/css/main.deb5c223.css.map",
-    "main.936749c1.js.map": "/timothyluedtke.github.io/static/js/main.936749c1.js.map"
+    "main.css": "/static/css/main.deb5c223.css",
+    "main.js": "/static/js/main.b6049a3c.js",
+    "static/media/hero-dark.jpg": "/static/media/hero-dark.37f2556d620821979e99.jpg",
+    "static/media/portfolio-screen.jpg": "/static/media/portfolio-screen.9bd14c8e0c9a4a321111.jpg",
+    "static/media/hero-light.jpg": "/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
+    "static/media/demera-screen.jpg": "/static/media/demera-screen.b29831aba53309203df7.jpg",
+    "service-worker.js": "/service-worker.js",
+    "static/media/artRoom-screen.jpg": "/static/media/artRoom-screen.2b87c98cb5f3aadb84cf.jpg",
+    "static/media/mich-screen.jpg": "/static/media/mich-screen.f88bc84e51d1003a1552.jpg",
+    "static/media/GH.svg": "/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.deb5c223.css.map": "/static/css/main.deb5c223.css.map",
+    "main.b6049a3c.js.map": "/static/js/main.b6049a3c.js.map"
   },
   "entrypoints": [
     "static/css/main.deb5c223.css",
-    "static/js/main.936749c1.js"
+    "static/js/main.b6049a3c.js"
   ]
 }
