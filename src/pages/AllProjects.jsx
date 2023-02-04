@@ -134,7 +134,8 @@ export default function AllProjects() {
             <Container className="d-flex">
               <Title>
                 <h2>
-                  All <FaGithub /> Projects
+                  {/* All <FaGithub /> Projects */}
+                  Projects
                 </h2>
                 <div className="underline"></div>
               </Title>
@@ -154,7 +155,8 @@ export default function AllProjects() {
             <Container className="d-flex">
               <Title>
                 <h2>
-                  All <FaGithub /> Projects
+                  {/* All <FaGithub /> Projects */}
+                  Projects
                 </h2>
                 <div className="underline"></div>
               </Title>

@@ -4,14 +4,19 @@ import {
   FaCss3Alt,
   FaBootstrap,
   FaReact,
+  FaJava,
   FaGitAlt,
   FaGithubSquare,
   FaLink,
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { SiJavascript, SiMongodb, SiPostgresql, SiRedux, SiTailwindcss } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+// import Logo from "./images/logo.svg";
+import ArtRoomIMG from "./images/artRoom-screen.jpg";
+import MichIMG from "./images/mich-screen.jpg";
+import PortfolioIMG from "./images/portfolio-screen.jpg";
+import DemeraIMG from "./images/demera-screen.jpg";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -24,7 +29,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "TimothyLuedtke";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
@@ -34,7 +39,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. This site runs with React, Bootstrap, Redux, and the GitHub REST API.";
 
 /* Skills
  ************************************************************** 
@@ -64,25 +69,40 @@ export const skillData = [
   {
     id: 5,
     skill: <FaReact className="display-4" />,
-    name: "React",
+    name: "React / React Native",
   },
   {
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <SiTailwindcss className="display-4" />,
+    name: "Tailwind CSS",
   },
   {
     id: 7,
+    skill: <SiMongodb className="display-4" />,
+    name: "MongoDB",
+  },
+  {
+    id: 8,
+    skill: <SiPostgresql className="display-4" />,
+    name: "PostgreSQL",
+  },
+  {
+    id: 9,
     skill: <SiRedux className="display-4" />,
     name: "Redux",
   },
   {
-    id: 8,
+    id: 10,
+    skill: <FaJava className="display-4" />,
+    name: "Java",
+  },
+  {
+    id: 11,
     skill: <FaGitAlt className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
+    id: 12,
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
   },
@@ -95,14 +115,27 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["ArtRoom", "Mich-Restaurant", "portfolio"];
 
-// Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
+// Replace the default GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "ArtRoom",
+    image: ArtRoomIMG,
   },
+  {
+    name: "Demera",
+    image: DemeraIMG,
+  },
+  {
+    name: "Mich-Restaurant",
+    image: MichIMG,
+  },
+  {
+    name: "portfolio",
+    image: PortfolioIMG,
+  },
+
 ];
 
 /* Contact Info
@@ -110,4 +143,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/mdovagvo";

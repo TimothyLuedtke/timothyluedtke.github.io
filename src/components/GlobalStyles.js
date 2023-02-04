@@ -67,8 +67,8 @@ a:hover {
   }
 
   .card-img-top {
-    height: 50%;
-    object-fit: contain;
+    height: 60%;
+    object-fit: cover;
   }
 }
 

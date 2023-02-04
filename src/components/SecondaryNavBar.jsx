@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { ToggleSwitch, FixedNavSpacer } from "./globalStyledComponents";
 // Images
-import Logo from "../images/logo.svg";
+// import Logo from "../images/logo.svg";
 
 export default function SecondaryNavBar() {
   const { pathname } = useLocation();
@@ -25,13 +25,13 @@ export default function SecondaryNavBar() {
       >
         <Container>
           <Navbar.Brand>
-            <img
+            {/* <img
               alt="React Logo"
               src={Logo}
               width="30"
               height="30"
               className="d-inline-block align-top bg-dark rounded-circle nav-logo"
-            />
+            /> */}
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
