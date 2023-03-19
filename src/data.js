@@ -18,6 +18,7 @@ import MichIMG from "./images/mich-screen.jpg";
 import PortfolioIMG from "./images/portfolio-screen.jpg";
 import DemeraIMG from "./images/demera-screen.jpg";
 import ExifIMG from "./images/exifParser-screen.jpg";
+import ContactrIMG from "./images/contactr-screen.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -114,6 +115,10 @@ export const projectCardImages = [
   {
     name: "ArtRoom",
     image: ArtRoomIMG,
+  },
+  {
+    name: "contactr",
+    image: ContactrIMG,
   },
   {
     name: "Demera",
