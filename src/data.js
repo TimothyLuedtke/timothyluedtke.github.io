@@ -42,10 +42,6 @@ export const Blog = <FaLink />;
 export const moreInfo =
   "I enjoy learning about technology and helping others use it to improve their lives and be more productive. This site runs with React, Bootstrap, Redux, and the GitHub REST API.";
 
-/* Skills
- ************************************************************** 
-  Add or remove skills in the SAME format below, there must be one icon imported above per skill below.
-*/
 export const skillData = [
   {
     id: 1,
@@ -112,13 +108,8 @@ export const skillData = [
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = null;
 
-/* Projects
- ************************************************************** 
-  List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
-*/
 export const filteredProjects = ["ArtRoom", "Mich-Restaurant", "exif"];
 
-// Replace the default GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
     name: "ArtRoom",
