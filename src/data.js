@@ -17,6 +17,7 @@ import ArtRoomIMG from "./images/artRoom-screen.jpg";
 import MichIMG from "./images/mich-screen.jpg";
 import PortfolioIMG from "./images/portfolio-screen.jpg";
 import DemeraIMG from "./images/demera-screen.jpg";
+import ExifIMG from "./images/exifParser-screen.jpg";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -115,7 +116,7 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["ArtRoom", "Mich-Restaurant", "timothyluedtke.github.io"];
+export const filteredProjects = ["ArtRoom", "Mich-Restaurant", "exif"];
 
 // Replace the default GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
@@ -126,6 +127,10 @@ export const projectCardImages = [
   {
     name: "Demera",
     image: DemeraIMG,
+  },
+  { 
+    name: "exif",
+    image: ExifIMG,
   },
   {
     name: "Mich-Restaurant",
