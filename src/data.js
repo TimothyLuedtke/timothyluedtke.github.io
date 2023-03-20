@@ -40,10 +40,10 @@ export const Blog = <FaLink />;
 Add a second paragraph for the about me section.
 */
 // Resume link
-export const resume = "https://pdfhost.io/v/eXFSxlELT_Software_Engineering_Resume"
+export const resume = "https://pdfhost.io/v/eXFSxlELT_Software_Engineering_Resume";
 
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. This site runs with React, Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy learning and utilizing tools/processes to refine systems and relieve pressure points. Btw, this site runs with React, Bootstrap, Redux, and the GitHub REST API.";
 
 export const skillData = [
   {
