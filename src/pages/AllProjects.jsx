@@ -208,6 +208,7 @@ export default function AllProjects() {
                       name,
                       description,
                       html_url,
+                      homepage,
                     }) {
                       return (
                         <Col key={id}>
@@ -217,6 +218,7 @@ export default function AllProjects() {
                             name={name}
                             description={description}
                             url={html_url}
+                            link={homepage}
                           />
                         </Col>
                       );
@@ -227,6 +229,7 @@ export default function AllProjects() {
                       name,
                       description,
                       html_url,
+                      homepage,
                     }) {
                       return (
                         <Col key={id}>
@@ -236,6 +239,7 @@ export default function AllProjects() {
                             name={name}
                             description={description}
                             url={html_url}
+                            link={homepage}
                           />
                         </Col>
                       );

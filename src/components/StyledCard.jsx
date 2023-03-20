@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 // Icons
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLink } from "react-icons/fa";
 // Media
 import GH from "../images/GH.svg";
 // Components
@@ -23,7 +23,7 @@ const StyledCardComponent = styled.div`
   }
 `;
 
-export default function StyledCard({ theme, image, name, description, url }) {
+export default function StyledCard({ theme, image, name, description, url, link }) {
   return (
     <StyledCardComponent>
       <Card bg={theme === "light" ? "white" : "dark"}>
@@ -42,6 +42,12 @@ export default function StyledCard({ theme, image, name, description, url }) {
             {/* {"View on GitHub "} */}
             <FaGithub />
           </Card.Link>
+          {link && (
+            <Card.Link href={link} target="_blank" rel="noopener noreferrer">
+              {/* {"View site "} */}
+              <FaLink />
+            </Card.Link>
+          )}
         </Card.Footer>
       </Card>
     </StyledCardComponent>

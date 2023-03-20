@@ -21,7 +21,7 @@ export const fetchGitHubInfo = createAsyncThunk(
         return res;
       });
       const data = await response.json();
-      console.log('this is the github data', data);
+      // console.log('this is the github data', data);
       return data;
     } catch (err) {
       return rejectWithValue(

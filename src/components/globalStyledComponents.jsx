@@ -3,7 +3,8 @@ import { useAppContext } from "../appContext";
 import styled, { keyframes } from "styled-components";
 import { Link } from "react-scroll/modules";
 // Icons
-import { GiSunflower, GiMoon } from "react-icons/gi";
+import { GiVampireDracula } from "react-icons/gi";
+import { HiOutlineSun } from "react-icons/hi";
 import { FaChevronCircleUp } from "react-icons/fa";
 
 // Animations
@@ -82,7 +83,7 @@ export function ToggleSwitch() {
           closeExpanded();
         }}
       />
-      <div>{theme === "light" ? <GiSunflower /> : <GiMoon />}</div>
+      <div>{theme === "light" ? <HiOutlineSun /> : <GiVampireDracula />}</div>
     </StyledSwitch>
   );
 }
