@@ -43,7 +43,7 @@ Add a second paragraph for the about me section.
 export const resume = "https://pdfhost.io/v/eXFSxlELT_Software_Engineering_Resume";
 
 export const moreInfo =
-  "I enjoy learning and utilizing tools/processes to refine systems and relieve pressure points. Btw, this site runs with React, Bootstrap, Redux, and the GitHub REST API.";
+  "All of the information from this site is generated from my Github via the GitHub API and stored using redux. It's hosted on GitHub Pages.";
 
 export const skillData = [
   {
