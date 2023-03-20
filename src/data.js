@@ -27,8 +27,8 @@ export { HeroLight as Light };
 export { HeroDark as Dark };
 
 /* START HERE
- **************************************************************
-  Add your GitHub username (string - "YourUsername") below.
+**************************************************************
+Add your GitHub username (string - "YourUsername") below.
 */
 export const githubUsername = "TimothyLuedtke";
 
@@ -36,9 +36,12 @@ export const githubUsername = "TimothyLuedtke";
 export const Blog = <FaLink />;
 
 /* About Me
- **************************************************************
-  Add a second paragraph for the about me section.
+**************************************************************
+Add a second paragraph for the about me section.
 */
+// Resume link
+export const resume = "https://pdfhost.io/v/eXFSxlELT_Software_Engineering_Resume"
+
 export const moreInfo =
   "I enjoy learning about technology and helping others use it to improve their lives and be more productive. This site runs with React, Bootstrap, Redux, and the GitHub REST API.";
 
@@ -105,8 +108,6 @@ export const skillData = [
   },
 ];
 
-// Resume link
-export const resume = "https://pdfhost.io/v/eXFSxlELT_Software_Engineering_Resume"
 
 export const filteredProjects = ["ArtRoom", "Mich-Restaurant", "exif"];
 

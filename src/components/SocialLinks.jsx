@@ -2,8 +2,8 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 import styled from "styled-components";
-// Data
-import { Blog } from "../data";
+// // Data
+// import { Blog } from "../data";
 // Icons
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -14,7 +14,8 @@ const StyledSocialLinks = styled.div`
 `;
 
 export default function SocialLinks() {
-  const { blog, html_url } = useSelector(selectData);
+  // const { blog, html_url } = useSelector(selectData);
+  const { html_url } = useSelector(selectData);
 
   return (
     <StyledSocialLinks>
@@ -32,11 +33,11 @@ export default function SocialLinks() {
       >
         <FaLinkedin />
       </a>
-      {blog && (
+      {/* {blog && (
         <a href={blog} aria-label="External link" className="link-icons">
           {Blog}
         </a>
-      )}
+      )} */}
     </StyledSocialLinks>
   );
 }
