@@ -40,7 +40,7 @@ export const Blog = <FaLink />;
 Add a second paragraph for the about me section.
 */
 // Resume link
-export const resume = "https://pdfhost.io/v/eXFSxlELT_Software_Engineering_Resume";
+export const resume = "https://pdfhost.io/v/oapbD2vGy_Software_Engineering_Resume";
 
 export const moreInfo =
   "All of the information from this site is generated from my Github via the GitHub API and stored using redux. It's hosted on GitHub Pages.";
