@@ -21,6 +21,7 @@ export default function SocialLinks() {
     <StyledSocialLinks>
       <a
         href={html_url}
+        target="blank"
         aria-label="Check out my GitHub profile."
         className="link-icons"
       >
@@ -28,6 +29,7 @@ export default function SocialLinks() {
       </a>
       <a
         href="https://www.linkedin.com/in/timothyluedtke/"
+        target="blank"
         aria-label="Check out my LinkedIn profile."
         className="link-icons"
       >
