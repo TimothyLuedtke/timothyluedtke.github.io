@@ -1,6 +1,8 @@
 import React from "react";
 import { useAppContext } from "../appContext";
 import { Link } from "react-scroll";
+// Data
+// import { resume } from "../data";
 // Components
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { FixedNavSpacer, ToggleSwitch } from "./globalStyledComponents";
@@ -62,17 +64,6 @@ export default function NavBar() {
               </Nav.Item>
               <Nav.Item>
                 <Link
-                  to={"Skills"}
-                  spy={true}
-                  activeClass="active"
-                  className="nav-link"
-                  onClick={closeExpanded}
-                >
-                  Skills
-                </Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link
                   to={"Projects"}
                   spy={true}
                   activeClass="active"
@@ -93,6 +84,27 @@ export default function NavBar() {
                   Contact
                 </Link>
               </Nav.Item>
+              {/* <Nav.Item>
+                {resume && (
+                  // <a
+                  //   href={resume}
+                  //   target="_blank"
+                  //   rel="noreferrer"
+                  //   onClick={closeExpanded}
+                  // >
+                    <Button
+                    href={resume}
+                      target="_blank"
+                      onClick={closeExpanded}
+                      size="sm"
+                      variant={theme === "light" ? "outline-dark" : "outline-light"}
+                      className="mt-2"
+                    >
+                      Resum&eacute;
+                    </Button>
+                  // </a>
+                )}
+              </Nav.Item> */}
             </Nav>
             <Nav>
               <ToggleSwitch />

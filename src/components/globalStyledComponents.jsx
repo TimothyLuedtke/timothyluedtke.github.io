@@ -132,7 +132,7 @@ export function BackToTop({ home }) {
   React.useEffect(
     function () {
       function updateScrollY() {
-        setScrollY(window.pageYOffset);
+        setScrollY(window.scrollY);
 
         if (scrollY > 500) {
           up.current.classList.add("show-up");
