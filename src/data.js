@@ -43,6 +43,7 @@ Add a second paragraph for the about me section.
 // Resume link
 export const resume = "https://docs.google.com/document/d/e/2PACX-1vTo422slrH35s1OdhHsHli5s-kkYSie8T3DupPPhBQOrNJ76pyv0z0-A08yxEFs3A/pub";
 
+
 export const moreInfo =
   "All of the information from this site is generated from my Github via the GitHub API and stored using redux. It's hosted on GitHub Pages.";
 
